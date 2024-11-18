@@ -27,7 +27,7 @@ type reportMessage struct {
 func (report *reportMessage) RenderTerminal() string {
 	errorMessage := ""
 	if report.err != nil {
-		errorMessage = "\n" + lipgloss.NewStyle().MarginLeft(2).Foreground(lipgloss.Color("#FF3232")).
+		errorMessage = "\n" + lipgloss.NewStyle().MarginLeft(2).Foreground(lipgloss.Color("9")).
 			Render(report.err.Error())
 	}
 
