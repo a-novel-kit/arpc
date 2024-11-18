@@ -1,0 +1,8 @@
+with-expecter: true
+packages:
+  github.com/a-novel-kit/arpc:
+    config:
+      all: True
+      recursive: true
+      outpkg: arpcmocks
+      dir: mocks
