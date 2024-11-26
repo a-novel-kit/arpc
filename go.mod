@@ -7,7 +7,7 @@ require (
 	github.com/a-novel-kit/test-utils v0.1.0
 	github.com/charmbracelet/lipgloss v1.0.0
 	github.com/samber/lo v1.47.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	golang.org/x/net v0.31.0
 	golang.org/x/oauth2 v0.24.0
 	google.golang.org/api v0.209.0
